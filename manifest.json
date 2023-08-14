@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "POBB.in Gem Highlighter",
+    "description": "Highlight gems on POBB.in based on color",
+    "version": "0.0.0.1",
+    "icons": {
+        "128": "icon.png"
+      },
+    "content_scripts": 
+        [
+            {
+                "matches": ["https://pobb.in/*","http://pobb.in/*"],
+                "js":["pobb_script.js"],
+                "run_at": "document_end"
+            }
+        ]
+}
