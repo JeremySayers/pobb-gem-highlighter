@@ -1,7 +1,7 @@
 # POBB Gem Highlighter
 Simple chrome extension that highlights the colors of the gems on pobb.in
 
-![pobb-demo](https://github.com/JeremySayers/pobb-gem-highlighter/assets/8796296/0563c3f8-a8ff-49d7-8603-97375e0641ae)
+![pobb-demo-2](https://github.com/JeremySayers/pobb-gem-highlighter/assets/8796296/2f5b16b1-222c-4748-902f-76c5fa9d83fc)
 
 # Installation
 ```
