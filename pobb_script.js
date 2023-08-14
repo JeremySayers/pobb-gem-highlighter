@@ -4,12 +4,15 @@ const blueGems = ["Arc", "Arcane Cloak", "Arcanist Brand", "Armageddon Brand", "
 
 const app = document.body;
 const button = document.createElement("button");
-button.textContent = "TELL ME THE COLORS";
+button.textContent = "Show Gem Color";
 button.classList.add("chrome-extension-button");
-button.style.backgroundColor = "red";
+button.style.backgroundColor = "#0284c7";
+button.style.borderRadius = "6px";
+button.style.color ="white";
+button.style.padding = "6px";
 button.style.position = "absolute";
 button.style.left = "150px";
-button.style.top = "15px";
+button.style.top = "10px";
 
 button.onclick = function (e) {
     const elements = document.getElementsByClassName('truncate');
